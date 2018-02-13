@@ -1,4 +1,4 @@
-package net.imglib.type.label;
+package net.imglib2.type.label;
 
 /**
  * A {@link MappedAccess} that stores its data in a portion of a {@code long[]}

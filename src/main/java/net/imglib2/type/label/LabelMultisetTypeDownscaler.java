@@ -1,13 +1,13 @@
-package net.imglib.type.label;
+package net.imglib2.type.label;
 
 import java.nio.ByteBuffer;
 
 import gnu.trove.list.array.TIntArrayList;
-import net.imglib.type.label.Multiset.Entry;
 import net.imglib2.Interval;
 import net.imglib2.RandomAccess;
 import net.imglib2.RandomAccessible;
 import net.imglib2.RandomAccessibleInterval;
+import net.imglib2.type.label.Multiset.Entry;
 import net.imglib2.view.Views;
 
 public class LabelMultisetTypeDownscaler

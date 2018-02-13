@@ -1,4 +1,4 @@
-package net.imglib.type.label;
+package net.imglib2.type.label;
 
 import java.util.AbstractList;
 import java.util.Comparator;

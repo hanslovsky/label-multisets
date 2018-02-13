@@ -1,9 +1,9 @@
-package net.imglib.type.label;
+package net.imglib2.type.label;
 
 import java.util.Iterator;
 import java.util.Set;
 
-import net.imglib.type.label.Multiset.Entry;
+import net.imglib2.type.label.Multiset.Entry;
 
 public class LabelMultisetEntryList
 		extends MappedObjectArrayList< LabelMultisetEntry, LongMappedAccess >

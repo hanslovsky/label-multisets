@@ -1,10 +1,10 @@
-package net.imglib.type.label;
+package net.imglib2.type.label;
 
 import java.nio.ByteBuffer;
 
 import gnu.trove.list.array.TIntArrayList;
-import net.imglib.type.label.Multiset.Entry;
 import net.imglib2.IterableInterval;
+import net.imglib2.type.label.Multiset.Entry;
 
 public class LabelUtils
 {

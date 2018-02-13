@@ -1,4 +1,4 @@
-package net.imglib.type.label;
+package net.imglib2.type.label;
 
 import net.imglib2.converter.Converter;
 import net.imglib2.type.numeric.IntegerType;

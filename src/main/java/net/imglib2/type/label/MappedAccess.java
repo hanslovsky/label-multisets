@@ -1,4 +1,4 @@
-package net.imglib.type.label;
+package net.imglib2.type.label;
 
 /**
  * Maps into region of underlying memory area (a primitive array or similar). By

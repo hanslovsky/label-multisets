@@ -7,4 +7,4 @@
  *
  *
  */
-package net.imglib.type.label;
+package net.imglib2.type.label;

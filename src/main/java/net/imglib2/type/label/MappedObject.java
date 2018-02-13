@@ -1,4 +1,4 @@
-package net.imglib.type.label;
+package net.imglib2.type.label;
 
 public abstract class MappedObject< O extends MappedObject< O, T >, T extends MappedAccess< T > >
 {

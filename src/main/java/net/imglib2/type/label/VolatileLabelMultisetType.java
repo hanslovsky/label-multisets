@@ -1,4 +1,4 @@
-package net.imglib.type.label;
+package net.imglib2.type.label;
 
 import net.imglib2.Volatile;
 import net.imglib2.img.NativeImg;
