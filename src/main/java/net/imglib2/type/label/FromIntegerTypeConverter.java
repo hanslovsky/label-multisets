@@ -24,6 +24,15 @@ public class FromIntegerTypeConverter< I extends IntegerType< I > > implements C
 		return type;
 	}
 
+	public static VolatileLabelMultisetType geAppropriateVolatileType()
+	{
+		final VolatileLabelMultisetType type = new VolatileLabelMultisetType( new VolatileLabelMultisetArray( 1, true ), true );
+		final LongMappedAccessData listData = getListData( type.get() );
+		final LongMappedAccess access = listData.createAccess();
+		access.putInt( 1, Long.BYTES + Integer.BYTES );
+		return type;
+	}
+
 	@Override
 	public void convert( final I input, final LabelMultisetType output )
 	{
