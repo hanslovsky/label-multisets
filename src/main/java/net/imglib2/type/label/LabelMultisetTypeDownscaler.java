@@ -65,7 +65,7 @@ public class LabelMultisetTypeDownscaler
 					searchIndex = list.binarySearch( sourceEntry.getElement().id() );
 					if ( list.size() > 0 && searchIndex >= 0 )
 						// just add 1 to the count of existing label
-						list.get( searchIndex ).setCount( list.get( searchIndex ).getCount() + 1 );
+						list.get( searchIndex ).setCount( list.get( searchIndex ).getCount() + sourceEntry.getCount() );
 					else
 					{
 						entry.setId( sourceEntry.getElement().id() );
